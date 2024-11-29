@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_6b5e16fa596ef9066721f95f53d6aedb {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_6b5e16fa596ef9066721f95f53d6aedb" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_6b5e16fa596ef9066721f95f53d6aedb = L.map(
+                "map_6b5e16fa596ef9066721f95f53d6aedb",
+                {
+                    center: [32.678, -96.756],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 11,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_564f2dc790ca32c0d49cb85e36e95e92 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_6b5e16fa596ef9066721f95f53d6aedb);
+        
+    
+            var marker_aa0e0530cbb0fc599f72d7f6d7e86e08 = L.marker(
+                [32.678, -96.756],
+                {}
+            ).addTo(map_6b5e16fa596ef9066721f95f53d6aedb);
+        
+    
+        var popup_1ca39563e3e149e5d6ed29ab0b312322 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ddaabdc736a45b28df257c7b55ae454f = $(`<div id="html_ddaabdc736a45b28df257c7b55ae454f" style="width: 100.0%; height: 100.0%;">Wilmer Hutchins High School<br>7:40 AM to 5:45 PM</div>`)[0];
+                popup_1ca39563e3e149e5d6ed29ab0b312322.setContent(html_ddaabdc736a45b28df257c7b55ae454f);
+            
+        
+
+        marker_aa0e0530cbb0fc599f72d7f6d7e86e08.bindPopup(popup_1ca39563e3e149e5d6ed29ab0b312322)
+        ;
+
+        
+    
+    
+            marker_aa0e0530cbb0fc599f72d7f6d7e86e08.bindTooltip(
+                `<div>
+                     Wilmer Hutchins High School
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d617f17ecf3173592e50b79088057c99 = L.marker(
+                [32.676, -96.545],
+                {}
+            ).addTo(map_6b5e16fa596ef9066721f95f53d6aedb);
+        
+    
+        var popup_d04cedfd539edb70096ee2ff300e2de0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fe26b9505e46833ae5523b9c8c314d24 = $(`<div id="html_fe26b9505e46833ae5523b9c8c314d24" style="width: 100.0%; height: 100.0%;">Seagoville High School<br>7:52 AM to 5:30 PM</div>`)[0];
+                popup_d04cedfd539edb70096ee2ff300e2de0.setContent(html_fe26b9505e46833ae5523b9c8c314d24);
+            
+        
+
+        marker_d617f17ecf3173592e50b79088057c99.bindPopup(popup_d04cedfd539edb70096ee2ff300e2de0)
+        ;
+
+        
+    
+    
+            marker_d617f17ecf3173592e50b79088057c99.bindTooltip(
+                `<div>
+                     Seagoville High School
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_396fa2d9f942417f4cdafa47053ad83e = L.marker(
+                [32.718, -96.678],
+                {}
+            ).addTo(map_6b5e16fa596ef9066721f95f53d6aedb);
+        
+    
+        var popup_f87ebf41f0538a79d6ae2b6725914192 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cb7d098e1d730fba52679f8ed1123dfd = $(`<div id="html_cb7d098e1d730fba52679f8ed1123dfd" style="width: 100.0%; height: 100.0%;">H. Grady Spruce High School<br>8:10 AM to 5:14 PM</div>`)[0];
+                popup_f87ebf41f0538a79d6ae2b6725914192.setContent(html_cb7d098e1d730fba52679f8ed1123dfd);
+            
+        
+
+        marker_396fa2d9f942417f4cdafa47053ad83e.bindPopup(popup_f87ebf41f0538a79d6ae2b6725914192)
+        ;
+
+        
+    
+    
+            marker_396fa2d9f942417f4cdafa47053ad83e.bindTooltip(
+                `<div>
+                     H. Grady Spruce High School
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_46329c60f21e0bd13076103873f75779 = L.marker(
+                [32.66, -96.856],
+                {}
+            ).addTo(map_6b5e16fa596ef9066721f95f53d6aedb);
+        
+    
+        var popup_f4f5ec67a2ac0e480e179fee0e374c54 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c3623d6ba7a8a3937c0103ae8e8be694 = $(`<div id="html_c3623d6ba7a8a3937c0103ae8e8be694" style="width: 100.0%; height: 100.0%;">David W. Carter High School<br>8:30 AM to 4:52 PM</div>`)[0];
+                popup_f4f5ec67a2ac0e480e179fee0e374c54.setContent(html_c3623d6ba7a8a3937c0103ae8e8be694);
+            
+        
+
+        marker_46329c60f21e0bd13076103873f75779.bindPopup(popup_f4f5ec67a2ac0e480e179fee0e374c54)
+        ;
+
+        
+    
+    
+            marker_46329c60f21e0bd13076103873f75779.bindTooltip(
+                `<div>
+                     David W. Carter High School
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0e09de215512d951d4dcbefb02321c5d = L.marker(
+                [32.698, -96.8],
+                {}
+            ).addTo(map_6b5e16fa596ef9066721f95f53d6aedb);
+        
+    
+        var popup_488aff11b5ca39fb41c68d5b477e1c79 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b2852e67488f33a96a554977e064ddec = $(`<div id="html_b2852e67488f33a96a554977e064ddec" style="width: 100.0%; height: 100.0%;">South Oak Cliff High School<br>8:40 AM to 4:40 PM</div>`)[0];
+                popup_488aff11b5ca39fb41c68d5b477e1c79.setContent(html_b2852e67488f33a96a554977e064ddec);
+            
+        
+
+        marker_0e09de215512d951d4dcbefb02321c5d.bindPopup(popup_488aff11b5ca39fb41c68d5b477e1c79)
+        ;
+
+        
+    
+    
+            marker_0e09de215512d951d4dcbefb02321c5d.bindTooltip(
+                `<div>
+                     South Oak Cliff High School
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1db54e58f3b8e9fbaa2fd3cc086f81ed = L.marker(
+                [32.698, -96.8],
+                {}
+            ).addTo(map_6b5e16fa596ef9066721f95f53d6aedb);
+        
+    
+            var icon_f3d35d7243d6573d967e0396e992196f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "graduation-cap", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_1db54e58f3b8e9fbaa2fd3cc086f81ed.setIcon(icon_f3d35d7243d6573d967e0396e992196f);
+        
+    
+        var popup_9811aa805f317293b8607a92c34cd912 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_688596be3d8f7e69198fccf40d94d6ad = $(`<div id="html_688596be3d8f7e69198fccf40d94d6ad" style="width: 100.0%; height: 100.0%;">South Oak Cliff High School<br>3601 S Marsalis Ave, Dallas, TX 75216</div>`)[0];
+                popup_9811aa805f317293b8607a92c34cd912.setContent(html_688596be3d8f7e69198fccf40d94d6ad);
+            
+        
+
+        marker_1db54e58f3b8e9fbaa2fd3cc086f81ed.bindPopup(popup_9811aa805f317293b8607a92c34cd912)
+        ;
+
+        
+    
+    
+            marker_1db54e58f3b8e9fbaa2fd3cc086f81ed.bindTooltip(
+                `<div>
+                     SOC
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_67bcacecf082191bd839ab583c71b81c = L.polyline(
+                [[32.678, -96.756], [32.676, -96.545]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6b5e16fa596ef9066721f95f53d6aedb);
+        
+    
+            var marker_aafb56e8980f55cc3cf3a094f8fe5796 = L.marker(
+                [32.677, -96.6505],
+                {}
+            ).addTo(map_6b5e16fa596ef9066721f95f53d6aedb);
+        
+    
+            var div_icon_b89f76b1a1e9b7d6c36f5242ccd9c406 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 10pt; color: black;\"\u003e12.30 miles\u003c/div\u003e"});
+            marker_aafb56e8980f55cc3cf3a094f8fe5796.setIcon(div_icon_b89f76b1a1e9b7d6c36f5242ccd9c406);
+        
+    
+            var poly_line_1b92599471b1982c98a850374ea3ede3 = L.polyline(
+                [[32.676, -96.545], [32.718, -96.678]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6b5e16fa596ef9066721f95f53d6aedb);
+        
+    
+            var marker_d7a1371800827e31e37910a51bf2bc91 = L.marker(
+                [32.697, -96.6115],
+                {}
+            ).addTo(map_6b5e16fa596ef9066721f95f53d6aedb);
+        
+    
+            var div_icon_3b2bf0c19b37e4283dcdcdd022b9e248 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 10pt; color: black;\"\u003e8.27 miles\u003c/div\u003e"});
+            marker_d7a1371800827e31e37910a51bf2bc91.setIcon(div_icon_3b2bf0c19b37e4283dcdcdd022b9e248);
+        
+    
+            var poly_line_1814c01cff0881a8085f1c1d249ba1f1 = L.polyline(
+                [[32.718, -96.678], [32.66, -96.856]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6b5e16fa596ef9066721f95f53d6aedb);
+        
+    
+            var marker_972609292171f1dc3963fcac9fb1b625 = L.marker(
+                [32.689, -96.767],
+                {}
+            ).addTo(map_6b5e16fa596ef9066721f95f53d6aedb);
+        
+    
+            var div_icon_dd70b3e0a12e90a818f362f5889a8ff8 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 10pt; color: black;\"\u003e11.12 miles\u003c/div\u003e"});
+            marker_972609292171f1dc3963fcac9fb1b625.setIcon(div_icon_dd70b3e0a12e90a818f362f5889a8ff8);
+        
+    
+            var poly_line_dd5bca009cb7c922841c63f73ee283da = L.polyline(
+                [[32.66, -96.856], [32.698, -96.8]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6b5e16fa596ef9066721f95f53d6aedb);
+        
+    
+            var marker_da9a9965d22831463dd6d03651b2c836 = L.marker(
+                [32.679, -96.828],
+                {}
+            ).addTo(map_6b5e16fa596ef9066721f95f53d6aedb);
+        
+    
+            var div_icon_30b20287b006e3b10ce05d5cb2108349 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 10pt; color: black;\"\u003e4.18 miles\u003c/div\u003e"});
+            marker_da9a9965d22831463dd6d03651b2c836.setIcon(div_icon_30b20287b006e3b10ce05d5cb2108349);
+        
+</script>
+</html>
